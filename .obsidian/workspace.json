@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "0c73817b2b58d96b",
+    "type": "split",
+    "children": [
+      {
+        "id": "705facb0f457c674",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7570328b4f601402",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithms/Selection Sort.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Selection Sort"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cdd83d3a154a4085",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e469ef35fad39b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ad39c1e5f10ddbe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "965a175cd50c2236",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7df4a936530434b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9c154f6292b632ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "908fcac99b8b3794",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cb374cc8cbdae54",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Nmap.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Nmap"
+            }
+          },
+          {
+            "id": "3e41948c68b895bd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Nmap.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Nmap"
+            }
+          },
+          {
+            "id": "35ce0aa1df2fcca9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4d585d20885227e6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Nmap.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Nmap"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7570328b4f601402",
+  "lastOpenFiles": [
+    "Algorithms/Bubble Sort.md",
+    "Data_Structure/Stack.md",
+    "Hacking/Wi-Fi.md",
+    "Hacking/Nmap.md",
+    "Hacking/Man in the Middle Attack.md",
+    "Hacking/Crunch.md",
+    "Hacking/Bettercap.md",
+    "Algorithms/Insertion Sort.md",
+    "Algorithms/Selection Sort.md",
+    "Algorithms/Binary Search.md",
+    "Algorithms/Untitled",
+    "Algorithms",
+    "Data_Structure",
+    "Programming",
+    "Web_Development/Django.md",
+    "Web_Development",
+    "Hacking",
+    "Welcome.md"
+  ]
+}
