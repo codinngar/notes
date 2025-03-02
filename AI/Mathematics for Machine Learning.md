@@ -1,0 +1,19 @@
+## Notes
+- Machine learning is about designing algorithms that automatically extract valuable information from data.
+- There are three concepts that are at the core of machine learning: data, a model, and learning.
+- The goal of machine learning is to design general-purpose methodologies to extract valuable patterns from data.
+- we use the phrase “machine learning algorithm” to mean a system that makes predictions based on in- put data. We refer to these algorithms as predictors. In the second sense, we use the exact same phrase “machine learning algorithm” to mean a system that adapts some internal parameters of the predictor so that it performs well on future unseen input data. Here we refer to this adaptation as training a system.
+- a vector as an array of numbers (a computer science view), a vector as an arrow with a direction and magnitude (a physics view), and a vector as an object that obeys addition and scaling (a mathematical view).
+- vectors are special objects that can be added together and multiplied by scalars to produce another object of the same kind. From an abstract mathematical viewpoint, any object that satisfies these two properties can be considered a vector.
+- Audio signals are vectors. Audio signals are represented as a series of numbers. We can add audio signals together, and their sum is a new audio signal. If we scale an audio signal, we also obtain an audio signal. Therefore, audio signals are a type of vector, too.
+- for a real-valued system of linear equations we obtain either no, exactly one, or infinitely many solutions.
+- In a system of linear equations with two variables x1 , x2 , each linear equation defines a line on the x1 x2 -plane. Since a solution to a system of linear equations must satisfy all equations simultaneously, the solution set is the intersection of these lines. This intersection set can be a line (if the linear equations describe the same line), a point, or empty (when the lines are parallel).
+- ![[Pasted image 20250301145038.png]]
+- ![[Pasted image 20250301145140.png]]
+- ![[Pasted image 20250301145648.png]]
+- ![[Pasted image 20250301150204.png]]
+- ![[Pasted image 20250301150533.png]]
+- ![[Pasted image 20250301150721.png]]
+- ![[Pasted image 20250302093801.png]]
+- ![[Pasted image 20250302094152.png]]
+- ![[Pasted image 20250302094325.png]]

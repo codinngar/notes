@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms/Selection Sort.md",
-                "mode": "source",
+                "file": "AI/Mathematics for Machine Learning.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Selection Sort"
+              "title": "Mathematics for Machine Learning"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "9c154f6292b632ec",
@@ -170,6 +171,21 @@
   },
   "active": "7570328b4f601402",
   "lastOpenFiles": [
+    "AI/attachments/Pasted image 20250302094325.png",
+    "AI/attachments/Pasted image 20250302094152.png",
+    "AI/attachments/Pasted image 20250302093801.png",
+    "AI/attachments/Pasted image 20250301150721.png",
+    "AI/attachments/Pasted image 20250301150533.png",
+    "AI/attachments/Pasted image 20250301150438.png",
+    "AI/Mathematics for Machine Learning.md",
+    "AI/attachments/Pasted image 20250301150204.png",
+    "AI/attachments/Pasted image 20250301145648.png",
+    "AI/attachments/Pasted image 20250301145140.png",
+    "Pasted image 20250301144848.png",
+    "AI/attachments/Pasted image 20250301145038.png",
+    "AI/attachments",
+    "Algorithms/Selection Sort.md",
+    "AI",
     "Algorithms/Bubble Sort.md",
     "Data_Structure/Stack.md",
     "Hacking/Wi-Fi.md",
@@ -178,7 +194,6 @@
     "Hacking/Crunch.md",
     "Hacking/Bettercap.md",
     "Algorithms/Insertion Sort.md",
-    "Algorithms/Selection Sort.md",
     "Algorithms/Binary Search.md",
     "Algorithms/Untitled",
     "Algorithms",
