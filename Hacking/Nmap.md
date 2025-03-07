@@ -1,5 +1,5 @@
 
-> using nmap with sudo makes different operations from not using it
+> using nmap with sudo makes different operations from without sudo
 
 #### Ping scan
 ```bash

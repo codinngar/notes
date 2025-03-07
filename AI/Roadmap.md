@@ -22,7 +22,7 @@ Before diving into ML, you need to be comfortable with these topics:
   - [x] Functions and Modules  
 - **Data Structures and Algorithms**  
   - [ ] Lists, Dictionaries, Tuples, Sets  
-  - [ ] Searching and Sorting Algorithms  
+  - [x] Searching and Sorting Algorithms  
 - **Python Libraries for ML**  
   - [ ] NumPy (for numerical operations)  
   - [ ] Pandas (for data manipulation)  

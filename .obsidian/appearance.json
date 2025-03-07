@@ -2,7 +2,7 @@
   "accentColor": "#000000",
   "baseFontSize": 16,
   "theme": "system",
-  "cssTheme": "",
+  "cssTheme": "Border",
   "interfaceFontFamily": "CaskaydiaCove Nerd Font",
   "textFontFamily": "CaskaydiaCove Nerd Font",
   "monospaceFontFamily": "CaskaydiaCove Nerd Font"
