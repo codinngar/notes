@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Mathematics for Machine Learning.md",
+                "file": "AI/Libraries/Numpy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mathematics for Machine Learning"
+              "title": "Numpy"
             }
           }
         ]
@@ -170,6 +170,8 @@
   },
   "active": "fc13b01fd4a6159c",
   "lastOpenFiles": [
+    "AI/Roadmap.md",
+    "AI/Mathematics for Machine Learning.md",
     "AI/Libraries/Numpy.md",
     "AI/attachments/Pasted image 20250305061815.png",
     "AI/attachments/Pasted image 20250304233125.png",
@@ -181,8 +183,6 @@
     "AI/attachments/Pasted image 20250302094325.png",
     "AI/attachments/Pasted image 20250302094152.png",
     "AI/attachments/Pasted image 20250302093801.png",
-    "AI/Roadmap.md",
-    "AI/Mathematics for Machine Learning.md",
     "AI/Libraries",
     "Hacking/Wi-Fi.md",
     "Hacking/Nmap.md",

@@ -76,4 +76,7 @@ np.multiply(a, 5, b)
 
 # make b matrix with values of a ^ 2
 np.power(a, 2, b)
+
+# return the sum of all matrix elements
+np.add.reduce(a)
 ```
