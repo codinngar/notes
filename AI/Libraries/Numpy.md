@@ -79,4 +79,57 @@ np.power(a, 2, b)
 
 # return the sum of all matrix elements
 np.add.reduce(a)
+
+# make a matrix with string format
+np.matrix(f"{1} {2}; {3} {4}")
+
+# return the sum of the diagonal
+np.trace(a)
+
+# return the matrix determinant, eignvalue and inverse
+np.linalg.det(a)
+np.linalg.eig(a)
+np.linalg.inv(a)
+
+# slice from a matrix
+a[0:8:2]
+
+# return rows from 2 to 3 and columns from 1 to 5
+a[2:4, 1:6]
+
+# reverse the matrix
+a[::-1, ::-1]
+
+# change values of a matrix
+a[1, 3]
+
+# x1 = a[:3]
+# x2 = a[3:6]
+# x1 = a[6:]
+x1, x2, x3 = np.split(a, (3, 6))
+
+# x1 = a[:6]
+# x2 = []
+# x3 = a[3:]
+x1, x2, x3 = np.split(a, (6, 3))
+
+# add matrix b to a vertically
+np.vstack((a, b))
+np.concatenate([a, b], axis = 0)
+
+# add matrix b to a horizontally
+np.hstack((a, b))
+np.concatenate([a, b], axis = 1)
+
+# return max and min
+np.min(a)
+np.max(a)
+
+# return max and min orders
+np.argmin(a)
+np.argmax(a)
+
+# return variance and covariance
+np.var(a)
+np.cov(a)
 ```
