@@ -1,3 +1,4 @@
+
 ```python
 import numpy as np
 
@@ -132,4 +133,85 @@ np.argmax(a)
 # return variance and covariance
 np.var(a)
 np.cov(a)
+
+# operations on matrices
+a + b
+a - b
+a * b
+a / b
+a ** b
+np.sin(a)
+np.log(a)
+
+# dot product
+np.dot(a, b)
+
+# return the sum of rows and columns
+a.sum(axis=1)
+a.sum(axis=0)
+
+# sort rows and columns
+np.sort(a, axis=1)
+np.sort(a, axis=0)
+
+# read data from text file
+np.loadtxt(path, dtype, skiprows=9, usecols=(1, 3))
+np.genfromtxt(path, dtype, delimiter=",")
+x1, x2, x3 = np.loadtxt(path, unpack=True)
+```
+
+```python
+polynomial = np.polynomial.Polynomial
+
+x = np.linspace(0, 180, 10)
+y = np.linspace(10, 1, 10)
+
+# make best fit line with all values
+# 1 means an equation from the first degree and 2 the second degree and so on
+points, stats = polynomial.fit(x, y, 1, full=True)
+```
+
+```python
+# make a polynomial equation
+a = np.poly1d((3, 6, 7))
+
+# return the value of equation if x = 3
+a(3)
+
+# make a polynomial equation and put x = 3
+np.polyval((3, 6, 7), 3)
+
+# return the 3rd derivative or integration of equation a
+np.polyder(a, 3)
+np.polyint(a, 3)
+
+# solve the equation and return it's roots
+# roots is the values that make the equation = 0
+np.roots(a)
+```
+
+```python
+# make a date matrix
+a = np.array("2025-03-09", dtype=np.datetime64)
+b = np.datetime64("2025-03-09")
+
+# move forward and backward on days
+a + arange(12)
+a - arange(12)
+
+# return the difference between two dates in days
+a - b
+```
+
+```python
+# make a 1d matrix it's values is i ^ 3
+np.fromfunction(lambda i: i**3, (10,))
+
+# make a 2d matrix with 4 rows and 5 columns it's values is i + j
+np.fromfunction(lambda i, j: i + j, (4, 5))
+
+# make a 1d matrix it's values is i ^ 2
+def powers(i):
+	return i**2
+np.fromfunction(powers, (9, ), dtype=int)
 ```

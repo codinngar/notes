@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Libraries/Numpy.md",
+                "file": "AI/Libraries/Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Numpy"
+              "title": "Pandas"
             }
           }
         ]
@@ -170,9 +170,10 @@
   },
   "active": "fc13b01fd4a6159c",
   "lastOpenFiles": [
-    "AI/Mathematics for Machine Learning.md",
     "AI/Libraries/Numpy.md",
+    "AI/Libraries/Pandas.md",
     "AI/Roadmap.md",
+    "AI/Mathematics for Machine Learning.md",
     "AI/attachments/Pasted image 20250305061815.png",
     "AI/attachments/Pasted image 20250304233125.png",
     "AI/attachments/Pasted image 20250302145746.png",

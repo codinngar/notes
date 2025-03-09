@@ -4,8 +4,8 @@ Before diving into ML, you need to be comfortable with these topics:
 
 ### **1.1. Mathematics for Machine Learning**  
 - **Linear Algebra**  
-  - [ ] Vectors and Matrices  
-  - [ ] Matrix Operations (Addition, Multiplication, Inverse)  
+  - [x] Vectors and Matrices  
+  - [x] Matrix Operations (Addition, Multiplication, Inverse)  
   - [ ] Determinants and Eigenvalues  
 - **Calculus**  
   - [ ] Derivatives and Partial Derivatives  
@@ -21,10 +21,10 @@ Before diving into ML, you need to be comfortable with these topics:
   - [x] Variables, Data Types, Control Structures  
   - [x] Functions and Modules  
 - **Data Structures and Algorithms**  
-  - [ ] Lists, Dictionaries, Tuples, Sets  
+  - [x] Lists, Dictionaries, Tuples, Sets  
   - [x] Searching and Sorting Algorithms  
 - **Python Libraries for ML**  
-  - [ ] NumPy (for numerical operations)  
+  - [x] NumPy (for numerical operations)  
   - [ ] Pandas (for data manipulation)  
   - [ ] Matplotlib & Seaborn (for data visualization)  
 
