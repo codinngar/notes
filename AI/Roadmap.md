@@ -1,4 +1,3 @@
-
 ## **1. Prerequisites: Essential Foundations**  
 Before diving into ML, you need to be comfortable with these topics:
 

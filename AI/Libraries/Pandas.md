@@ -1,4 +1,3 @@
-
 ```python
 import pandas as pd
 
@@ -66,4 +65,33 @@ df.iloc[:3, :2]
 
 # return specific rows and columns from data table
 df.loc["a":"c", "two":]
+
+# return the rows that satisfies the condition
+df.loc[df.one > 3]
+
+# return specific columns and rows based on condition
+df.loc[df.one > 3, ["one", "three"]]
+
+# return columns and index
+df.columns
+df.index
+
+# sort values of a column
+df.sort_values(["one"], ascending=True)
+
+# return specific data from data frame
+df.min()
+df.max()
+df.std()
+df.corr()
+df.skew()
+df["two"].mean()
+
+# make a data frame from a loop
+data = [{"i^2": i**2, "i^3": i**3} for i in range(10)]
+df = pd.DataFrame(data)
+
+# make a data frame from dictionaries and fill empty with NaN
+df = pd.DataFrame({"one": 1, "two": 2}, {"one": 3, "two": 4})
+df = pd.DataFrame({"one": 1, "two": 2}, {"three": 3, "four": 4})
 ```
