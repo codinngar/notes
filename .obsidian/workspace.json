@@ -8,35 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc13b01fd4a6159c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Libraries/Numpy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Numpy"
-            }
-          },
-          {
             "id": "c61e7c52beae5bb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Libraries/Pandas.md",
+                "file": "AI/Libraries/Matplotlib.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pandas"
+              "title": "Matplotlib"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Libraries/Pandas.md",
+                "file": "AI/Libraries/Matplotlib.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pandas"
+              "title": "Backlinks for Matplotlib"
             }
           },
           {
@@ -186,6 +171,7 @@
   "active": "c61e7c52beae5bb9",
   "lastOpenFiles": [
     "AI/Libraries/Numpy.md",
+    "AI/Libraries/Matplotlib.md",
     "AI/Libraries/Pandas.md",
     "AI/Mathematics.md",
     "AI/Roadmap.md",
