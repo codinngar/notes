@@ -160,4 +160,75 @@ df.groupby('key').filter(filter_func)
 
 # groub by key then transform each data from x to x^2
 df.groupby('key').transform(lambda x: x**2)
+
+# make a multi index table
+index = [('California', 2000),('California', 2010),
+         ('New York', 2000),('New York', 2010),
+         ('Texas', 2000),('Texas', 2010)]
+
+populations = [10000,15000,
+               20000,25000,
+               30000,35000]
+
+index = pd.MultiIndex.from_tuples(index)
+pop = pd.Series(populations, index=index)
+
+# make rows columns and columns 
+pop.unstack()
+
+# make a multi index table from a data frame
+df = pd.DataFrame(np.random.random((4, 2)), [["a", "a", "b", "b"], [1, 2, 1, 2]], ["one", "two"])
+
+# make a multi index table from a series
+data = {('California', 2000): 10000,('California', 2010):15000,
+        ('Texas', 2000): 20000,('Texas', 2010): 25000,
+        ('New York', 2000): 30000,('New York', 2010): 35000}
+
+df = pd.Series(data)
+
+# make a multi index table
+index = pd.MultiIndex.from_product([[2010, 2011], [1, 2]], names=["year", "month"])
+columns = pd.MultiIndex.from_product([["BMW", "Ferrari", "Maserati"], ["Gas", "Petrol"]], names=["Car", "Fuel"])
+data = np.random.randint(30, 100, (4, 6))
+df = pd.DataFrame(data, index, columns)
+
+# return a specific data from a multiindex table
+df.loc[:, ("BMW", "Petrol")]
+
+# return a specific data from a multiindex table
+idx = pd.IndexSlice
+print(df.loc[idx[:, 1], idx[:, 'HR']])
+
+# string handling
+pd.Series(data).str.len()
+
+# date handling
+date = pd.to_datetime("4th of July, 2020")
+
+# add days to the current date
+new_date = date + pd.to_timedelta(np.arange(20), "D")
+
+# get days between two dates
+pd.date_range("2023-06-12", "2024-12-04")
+
+# get the next dates with frequency of 2 hours, 30 minutes and 10 seconds
+pd.date_range("2023-06-12", periods=8, freq="2H30T10S")
+
+# get the next dates with frequency of business days
+pd.date_range("2023-06-12", periods=8, freq=BDay())
+
+# read csv file and make col as index
+file = pd.read_csv("file.csv", index_col="col")
+
+# read first 30 lines
+file.head(30)
+
+# save data as a csv file and set names for columns
+data.to_csv("file.csv", names=["one", "two"])
+
+# save data as an excel file
+data.to_excel("file.xlsx", sheet_name="Sheet 1")
+
+# set options for output
+pd.set_option("display.width", 1000)
 ```
