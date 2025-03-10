@@ -24,7 +24,7 @@ np.random.randint(0, 10, (3, 2))
 # reshape matrix a to 3x3 matrix
 np.reshape(a, (3, 3))
 
-# create an array with a structured data type
+# create a matrix with a structured data type
 np.array(
     [("x", 1, 3.5), ("y", 2, 6.5), ("z", 3, 9.5)],
     dtype=[("name", "U3"), ("number", "i1"), ("value", "f2")],

@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "AI/Libraries/Numpy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Numpy"
+            }
+          },
+          {
+            "id": "c61e7c52beae5bb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "AI/Libraries/Pandas.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "Pandas"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nmap.md",
+                "file": "AI/Libraries/Pandas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Nmap"
+              "title": "Backlinks for Pandas"
             }
           },
           {
@@ -168,16 +183,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc13b01fd4a6159c",
+  "active": "c61e7c52beae5bb9",
   "lastOpenFiles": [
     "AI/Libraries/Numpy.md",
+    "AI/Libraries/Pandas.md",
     "AI/Mathematics.md",
     "AI/Roadmap.md",
     "Algorithms/Binary Search.md",
     "Algorithms/Selection Sort.md",
     "Algorithms/Insertion Sort.md",
     "Algorithms/Bubble Sort.md",
-    "AI/Libraries/Pandas.md",
     "AI/attachments/Pasted image 20250305061815.png",
     "AI/attachments/Pasted image 20250304233125.png",
     "AI/attachments/Pasted image 20250302145746.png",
