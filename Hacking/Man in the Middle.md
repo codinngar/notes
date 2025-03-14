@@ -1,4 +1,3 @@
-
 ```bash
 arpspoof -i <interface> -t <target-ip> <router-ip>
 arpspoof -i <interface> -t <router-ip> <target-ip>

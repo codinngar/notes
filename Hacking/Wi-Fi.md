@@ -1,4 +1,3 @@
-
 ```bash
 airmon-ng start wlan0
 # start the adapter in monitoring mode to able to hack the Wi-Fi and the adapter becomes wlan0mon

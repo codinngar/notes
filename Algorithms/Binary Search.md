@@ -1,8 +1,3 @@
-#### Notes
-- array must be sorted
-
----
-
 ```java
 public static void binarySearch(int[] array, int size, int target) {
 	int l = 0;

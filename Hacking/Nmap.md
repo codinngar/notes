@@ -1,6 +1,4 @@
-
 > using nmap with sudo makes different operations from without sudo
-
 #### Ping scan
 ```bash
 nmap -sn 192.168.1.0/24

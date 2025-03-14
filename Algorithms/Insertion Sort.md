@@ -1,4 +1,3 @@
-
 ```java
 public static void insertionSort(int[] array, int size) {
 	for (int i = 1; i < size; i++) {
