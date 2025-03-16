@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux.md",
+                "file": "SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linux"
+              "title": "SQL"
             }
           }
         ]
@@ -170,15 +170,15 @@
   },
   "active": "cb64aa6dc03bf967",
   "lastOpenFiles": [
-    "Linux.md",
+    "Backend/Roadmap.md",
     "SQL.md",
+    "Linux.md",
     "Backend/Java.md",
     "AI/Roadmap.md",
     "AI/Mathematics.md",
     "AI/Libraries/Pandas.md",
     "AI/Libraries/Numpy.md",
     "AI/Libraries/Matplotlib.md",
-    "Backend/Roadmap.md",
     "Backend",
     "Algorithms/Binary Search.md",
     "Algorithms/Bubble Sort.md",
