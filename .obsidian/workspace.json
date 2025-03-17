@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQL.md",
+                "file": "Backend/Spring Boot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Spring Boot"
             }
           }
         ]
@@ -170,8 +170,9 @@
   },
   "active": "cb64aa6dc03bf967",
   "lastOpenFiles": [
-    "Backend/Roadmap.md",
     "SQL.md",
+    "Backend/Spring Boot.md",
+    "Backend/Roadmap.md",
     "Linux.md",
     "Backend/Java.md",
     "AI/Roadmap.md",
@@ -214,7 +215,6 @@
     "AI/attachments",
     "AI",
     "Algorithms/Untitled",
-    "Algorithms",
-    "Web_Development/Django.md"
+    "Algorithms"
   ]
 }
