@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a055c6f70bf5b423",
+        "id": "d78bcea2a7dd6c8f",
         "type": "tabs",
         "children": [
           {
-            "id": "4fea7756f977931d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databases"
-            }
-          },
-          {
-            "id": "18374d07574f224c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Databases"
-            }
-          },
-          {
-            "id": "c085cc33bafebb4f",
+            "id": "24b9c57ce8064ecf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,8 +21,7 @@
               "title": "SQL"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,10 +180,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c085cc33bafebb4f",
+  "active": "24b9c57ce8064ecf",
   "lastOpenFiles": [
-    "Databases.md",
     "SQL.md",
+    "Databases.md",
+    "AI/Roadmap.md",
+    "AI/Mathematics.md",
+    "Hacking/Bettercap.md",
     "Old-SQL.md",
     "Untitled 1.md",
     "Data Structures & Algorithms.md",
@@ -235,9 +209,6 @@
     "coding-interview-university/translations/README-nl.md",
     "coding-interview-university/translations/README-mr.md",
     "coding-interview-university/translations/README-ko.md",
-    "coding-interview-university/translations/README-kk.md",
-    "coding-interview-university/translations/README-kh.md",
-    "coding-interview-university/translations/README-ja.md",
     "coding-interview-university/translations",
     "coding-interview-university/extras/cheat sheets/system-design.pdf",
     "coding-interview-university/extras/cheat sheets/python-cheat-sheet-v1.pdf",

@@ -95,3 +95,92 @@ DROP DATABASE database_name;
 ```sql
 TRUNCATE TABLE table_name;
 ```
+
+## Data Manipulation Language (DML)
+#### INSERT
+```sql
+INSERT INTO table_name (id, name)
+VALUES (1, "Ali"),
+	   (2, "Ziad");
+```
+
+#### UPDATE
+```sql
+UPDATE table_name
+SET name = "Ahmed",
+	age = 32
+WHERE id = 1;
+```
+
+#### DELETE
+```sql
+DELETE FROM table_name
+WHERE id = 2;
+```
+
+## Data Query Language (DQL)
+#### SELECT
+```sql
+SELECT *
+FROM table_name
+
+SELECT id
+FROM table_name
+
+SELECT id AS person_id
+FROM table_name
+
+SELECT salary, salary + 100
+AS "salary + 100"
+```
+
+#### DISTINCT
+```sql
+SELECT DISTINCT name
+FROM table_name
+```
+
+#### AND
+```sql
+SELECT * FROM table_name
+WHERE id < 10 AND age > 30;
+```
+
+#### OR
+```sql
+SELECT * FROM table_name
+WHERE id < 10 OR age > 30;
+```
+
+#### NOT
+```sql
+SELECT * FROM table_name
+WHERE name NOT "Ziad";
+```
+#### BETWEEN
+```sql
+SELECT * FROM table_name
+WHERE age BETWEEN 10 AND 30;
+```
+
+#### IN
+```sql
+SELECT * FROM table_name
+WHERE age IN [32, 54, 18];
+```
+
+#### Wildcards
+```sql
+SELECT * FROM table_name
+WHERE name LIKE "A%"; -- % means multiple characters
+
+SELECT * FROM table_name
+WHERE name LIKE "A_"; -- _ means single character
+```
+
+#### ORDER BY
+```sql
+SELECT * FROM table_name
+ORDER BY name, age DESC
+LIMIT 10
+```
