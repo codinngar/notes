@@ -1,140 +1,97 @@
-## Installation
-```bash
-# update the system
-sudo pacman -Syu
+## SQL Constraints
+| Constraint     | Description                         |
+| -------------- | ----------------------------------- |
+| `NOT NULL`     | values cannot be null               |
+| `UNIQUE`       | values cannot match any older value |
+| `PRIMARY KEY`  | used to uniquely identify a row     |
+| `FOREIGN KEY`  | references a row in another table   |
+| `CHECK`        | validates condition for new value   |
+| `DEFAULT`      | set default value if not passed     |
+| `CREATE INDEX` | used to speedup the read process    |
 
-# install mariadb
-sudo pacman -Sy mariadb
+## SQL Data Types
 
-# check installation
-mariadb --version
+#### Numeric Data Types
+| Data Type      | Description                       |
+| -------------- | --------------------------------- |
+| `TINYINT`      | Very small integer (-128 to 127)  |
+| `SMALLINT`     | Small integer (-32,768 to 32,767) |
+| `INT`          | Standard integer (-2B to 2B)      |
+| `BIGINT`       | Large integer (for big numbers)   |
+| `DECIMAL(p,s)` | Fixed-point number (exact value)  |
+| `FLOAT`        | Single precision (approximate)    |
+| `DOUBLE`       | Double precision (approximate)    |
 
-# Installing mariadb system tables
-mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+#### String Data Types
+| Data Type    | Description                               |
+| ------------ | ----------------------------------------- |
+| `CHAR(n)`    | Fixed-length string                       |
+| `VARCHAR(n)` | Variable-length string (max 65,535 bytes) |
+| `TEXT`       | Large text (max ~64KB)                    |
+| `TINYTEXT`   | Up to 255 characters                      |
+| `MEDIUMTEXT` | Up to 16MB of text                        |
+| `LONGTEXT`   | Up to 4GB of text                         |
 
-# start mysql service and check if it's running and enable it when rebooting
-sudo systemctl start mariadb
-sudo systemctl status mariadb
-sudo systemctl enable mariadb
+#### Date and Time Data Types
+| Data Type   | Description                           |
+| ----------- | ------------------------------------- |
+| `DATE`      | Only date (YYYY-MM-DD)                |
+| `TIME`      | Only time (HH:MM:SS)                  |
+| `DATETIME`  | Date and time (YYYY-MM-DD HH:MM:SS)   |
+| `TIMESTAMP` | Like DATETIME, but auto-updated often |
+| `YEAR`      | Year only (YYYY)                      |
 
-# secure mariadb installation 
-sudo mariadb-secure-installation
-# Enter current password for root (enter for none): <Enter>
-# You already have your root account protected, so you can safely answer 'n'
-# Switch to unix_socket authentication [Y/n] Y
-# Change the root password? [Y/n] n
-# Remove anonymous users? [Y/n] Y
-# Disallow root login remotely? [Y/n] Y
-# Remove test database and access to it? [Y/n] Y
-# Reload privilege tables now? [Y/n] Y
+#### Boolean Type
+| Data Type | Description                                    |
+| --------- | ---------------------------------------------- |
+| `BOOLEAN` | Synonym for `TINYINT(1)` (0 = false, 1 = true) |
 
-# log into mariadb
-sudo mariadb
+#### Misc / Special Types
+| Data Type | Description                                                               |
+| --------- | ------------------------------------------------------------------------- |
+| `ENUM`    | One value from a predefined list (e.g., `'small'`, `'medium'`, `'large'`) |
+| `SET`     | A set of zero or more values from a predefined list                       |
+| `BLOB`    | Binary data (e.g., images, files)                                         |
 
-# change password for mariadb
-CREATE USER '<username>'@'localhost' IDENTIFIED BY '<password>';
-
-# grant all privileges to the newly created user
-GRANT ALL PRIVILEGES ON *.* TO '<username>'@'localhost' WITH GRANT OPTION;
-
-# free up any cached memory and exit the MySQL client.
-FLUSH PRIVILEGES;
-exit
-```
-
-## Notes
+## Data Definition Language (DDL)
+#### CREATE
 ```sql
--- create a database
-CREATE DATABASE myDB;
-
--- use a database
-USE myDB;
-
--- delete a database or a table
-DROP DATABASE myDB;
-DROP TABLE myTable;
-
--- set database as read only
-ALTER DATABASE myDB READ ONLY = 1;
-
--- create a table with a schema
-CREATE TABLE users (
-	name VARCHAR(50),
-    age INT,
-    birth_date DATE,
-    salary DECIMAL(6, 2)
+CREATE TABLE table_name (
+	id INT PRIMARY KEY,
+	name VARCHAR(20)
 );
-
--- return all columns from users table
-SELECT * FROM users;
-
--- rename the table
-RENAME TABLE users TO employees;
-
--- add a column to the table
-ALTER TABLE users
-ADD phone VARCHAR(15);
-
--- rename a column
-ALTER TABLE users
-RENAME COLUMN phone TO email;
-
--- change column data type
-ALTER TABLE users
-MODIFY COLUMN email VARCHAR(50);
-
--- change column position to be after another column or at first
-ALTER TABLE users
-MODIFY COLUMN email VARCHAR(50) <AFTER age | FIRST>;
-
--- delete a column from a table
-ALTER TABLE users
-DROP COLUMN email;
-
--- add rows to a table
-INSERT INTO users
-VALUES ("Ali", 32, 25000.00), (), (), ();
-
--- specifiy what data you want to add
-INSERT INTO users (name, age)
-VALUES ("Ali", 32), (), (), ();
-
--- return specific columns from a table
-SELECT age, salary
-FROM users;
-
--- return specific data based on a condition
-SELECT *
-FROM users
-WHERE <age > 40 | salary IS NOT NULL>;
 ```
 
+#### ALTER
 ```sql
--- select columns from a table
-SELECT <* | name, age | age * 20>
-FROM database_name.table_name;
+ALTER TABLE table_name
+ADD email VARCHAR(50);
 
--- show only unique values
-SELECT DISTINCT name, age
-FROM database_name.table_name;
+ALTER TABLE table_name
+RENAME COLUMN email TO gmail;
 
--- filter output based on a condition
-SELECT *
-FROM table_name
-WHERE name = "Ali" AND age > 30;
+ALTER TABLE table_name
+MODIFY COLUMN email VARCHAR(100);
 
--- return all names starting with Mahm and has any number of charachters after
-SELECT *
-FROM table_name
-WHERE name LIKE "Mahm%";
+ALTER TABLE table_name
+MODIFY COLUMN email VARCHAR(100);
+AFTER id;
+FIRST;
 
--- return all names starting with Ahm and has two charachters after
-SELECT *
-FROM table_name
-WHERE name LIKE "Ahm__";
+ALTER TABLE table_name
+DROP COLUMN email;
+```
 
--- return average ages, min and max for genders
-SELECT gender, AVG(age), MIN(age), MAX(age)
-FROM table_name
-GROUP BY gender;
+#### DROP
+- completely removes both the data and the table structure
+```sql
+DROP TABLE table_name;
+
+DROP DATABASE database_name;
+```
+
+#### TRUNCATE
+- removes all rows but preserves the table structure
+```sql
+TRUNCATE TABLE table_name;
 ```
