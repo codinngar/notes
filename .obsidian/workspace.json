@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8989ce9aa364b3",
+        "id": "a055c6f70bf5b423",
         "type": "tabs",
         "children": [
           {
-            "id": "cb64aa6dc03bf967",
+            "id": "4fea7756f977931d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "coding-interview-university/programming-language-resources.md",
-                "mode": "preview",
+                "file": "Databases.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "programming-language-resources"
+              "title": "Databases"
+            }
+          },
+          {
+            "id": "18374d07574f224c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Databases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Databases"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,12 +165,23 @@
               "icon": "lucide-list",
               "title": "Outline of Nmap"
             }
+          },
+          {
+            "id": "d256028703cfe69e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 234.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -165,13 +191,20 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cb64aa6dc03bf967",
+  "active": "18374d07574f224c",
   "lastOpenFiles": [
-    "coding-interview-university/README.md",
+    "Untitled.md",
+    "Databases.md",
+    "Data Structures & Algorithms.md",
+    "coding-interview-university/Roadmap.md",
     "Java.md",
+    "vertalingen/README-kh.md",
+    "vertalingen",
+    "coding-interview-university/programming-language-resources.md",
     "coding-interview-university/translations/how-to.md",
     "coding-interview-university/translations/README-vi.md",
     "coding-interview-university/translations/README-uz.md",
@@ -191,11 +224,6 @@
     "coding-interview-university/translations/README-ja.md",
     "coding-interview-university/translations/README-it.md",
     "coding-interview-university/translations/README-id.md",
-    "coding-interview-university/translations/README-hi.md",
-    "coding-interview-university/translations/README-he.md",
-    "coding-interview-university/translations/README-fr.md",
-    "coding-interview-university/translations/README-fa.md",
-    "coding-interview-university/translations/README-es.md",
     "coding-interview-university/translations",
     "coding-interview-university/extras/cheat sheets/system-design.pdf",
     "coding-interview-university/extras/cheat sheets/python-cheat-sheet-v1.pdf",
@@ -205,7 +233,6 @@
     "coding-interview-university/extras/cheat sheets/STL Quick Reference 1.29.pdf",
     "coding-interview-university/extras/cheat sheets/Java Fundamentals Cheatsheet.pdf",
     "coding-interview-university/extras/cheat sheets/Cpp_reference.pdf",
-    "coding-interview-university/extras/cheat sheets/Coding Interview Python Language Essentials.pdf",
     "AI/attachments/Pasted image 20250305061815.png",
     "AI/attachments/Pasted image 20250304233125.png",
     "AI/attachments/Pasted image 20250302145746.png",

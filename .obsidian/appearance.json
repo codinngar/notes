@@ -1,9 +1,9 @@
 {
-  "accentColor": "#000000",
+  "accentColor": "",
   "baseFontSize": 16,
-  "theme": "moonstone",
-  "cssTheme": "Border",
+  "theme": "system",
+  "cssTheme": "",
   "interfaceFontFamily": "",
-  "textFontFamily": "",
+  "textFontFamily": "CaskaydiaCove Nerd Font",
   "monospaceFontFamily": "JetBrains Mono"
 }
