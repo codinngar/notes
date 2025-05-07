@@ -11,6 +11,10 @@
 - when used with a variable it means this variable's value cannot be changed
 - when used with a class it means that class cannot be subclassed (inherited)
 
+## Abstract
+- abstract classes cannot be instantiated but they can have a subclass
+- abstract methods are declared without implementation and the subclasses of the abstract class must implement the abstract methods
+
 ## Method Chaining
 ```java
 // Box.java
@@ -51,10 +55,6 @@ public enum Switch {
 Swith.ADD.getValue(); // 1
 Swith.DELETE.getValue(); // 2
 ```
-
-## Abstract
-- abstract classes cannot be instantiated but they can have a subclass
-- abstract methods are declared without implementation and the subclasses of the abstract class must implement the abstract methods
 
 ## Static and Dynamic Binding
 - static binding happens in overloading
@@ -146,6 +146,7 @@ class MyThread extends Thread {
 MyThread myThread = new MyThread();
 myThread.start();
 ```
+
 - make thread by implementing `Runnable` interface
 ```java
 class MyRunnable implements Runnable {
@@ -172,4 +173,16 @@ class Print<T extends Animal & Flying> {}
 
 // wild card is used when data type is unknown
 public void print(List<?> list) {}
+```
+
+## Exceptions
+```java
+try { // code that my throw an exception
+	int x = 8 / 0;
+	System.out.println(x);
+} catch (ArithmeticException e) { // what to do if there is an exception
+	System.out.println("Division by zero");
+} finally { // this code block always execute
+	System.out.println("Always execute");
+}
 ```

@@ -1,4 +1,4 @@
-# Git Course
+# Git Reference
 
 ## Git Configuration
 
@@ -9,9 +9,7 @@ git config --global core.editor "nvim"
 ```
 
 **`git config --global`** stores settings in **`~/.gitconfig`** and affects only the current user
-
 **`git config --system`** stores settings in **`/etc/gitconfig`** and affects all users on the system
-
 **`core.editor`** option is used to set the program that is used to write commit messages
 
 ```bash
