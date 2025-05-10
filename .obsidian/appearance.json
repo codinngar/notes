@@ -1,4 +1,5 @@
 {
   "baseFontSize": 16,
-  "cssTheme": "Material Gruvbox"
+  "cssTheme": "Material Gruvbox",
+  "theme": "obsidian"
 }
