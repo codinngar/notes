@@ -1,7 +1,8 @@
 ## Phase 1
 - [x] Programming
 - [ ] Code Tools
-	- [ ] Git & gitflow
+	- [ ] [[Git]]
+	- [ ] Gitflow
 	- [ ] Unit Test
 	- [ ] Build for different operating systems
 - [x] Linux

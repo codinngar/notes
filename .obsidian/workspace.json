@@ -13,12 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/roadmap.md",
-                "mode": "preview",
+                "file": "backend/git.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roadmap"
+              "title": "git"
+            }
+          }
+        ]
+      },
+      {
+        "id": "28a4bf986e1419d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c7eb7c9d7afc588",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -168,10 +184,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4da218e2214ede8f",
+  "active": "6c7eb7c9d7afc588",
   "lastOpenFiles": [
-    "Untitled.md",
     "backend/roadmap.md",
+    "backend/git.md",
+    "git.md",
+    "Untitled.md",
     "spring_boot.md",
     "backend",
     "backend",
@@ -181,7 +199,6 @@
     "database/mariadb.md",
     "database/sql.md",
     "Backend.md",
-    "git.md",
     "java.md"
   ]
 }
