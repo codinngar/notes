@@ -13,28 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "backend/git.md",
+                "file": "AI/Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
-            }
-          }
-        ]
-      },
-      {
-        "id": "28a4bf986e1419d6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6c7eb7c9d7afc588",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Pandas"
             }
           }
         ]
@@ -110,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java.md",
+                "file": "backend/roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for java"
+              "title": "Backlinks for roadmap"
             }
           },
           {
@@ -176,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-trim-whitespace:Trim whitespace": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -184,21 +169,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6c7eb7c9d7afc588",
+  "active": "4da218e2214ede8f",
   "lastOpenFiles": [
-    "backend/roadmap.md",
-    "backend/git.md",
+    "AI/Numpy.md",
+    "AI/Matplotlib.md",
+    "Database/Mariadb.md",
+    "Database/Databases.md",
+    "Database/SQL.md",
+    "Hacking/Wi-Fi.md",
+    "Hacking/Nmap.md",
+    "Hacking/Man in the middle.md",
+    "Hacking/Crunch.md",
+    "Hacking/Bettercap.md",
+    "Backend/Roadmap.md",
+    "Backend/Principles/SOLID.md",
+    "Backend/OOP.md",
+    "Backend/Git flow.md",
+    "Backend/Untitled",
+    "Backend/Git.md",
+    "Java.md",
+    "Backend/Principles",
+    "emacs.md",
     "git.md",
-    "Untitled.md",
     "spring_boot.md",
-    "backend",
-    "backend",
+    "Backend",
+    "Backend",
     "problem_solving.md",
-    "database/databases.md",
-    "database",
-    "database/mariadb.md",
-    "database/sql.md",
-    "Backend.md",
-    "java.md"
+    "Database",
+    "Backend.md"
   ]
 }

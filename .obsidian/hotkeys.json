@@ -1,0 +1,12 @@
+{
+  "editor:save-file": [],
+  "obsidian-trim-whitespace:trim-whitespace-document": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": " "
+    }
+  ]
+}
